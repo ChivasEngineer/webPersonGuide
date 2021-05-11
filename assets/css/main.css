@@ -1,0 +1,47 @@
+:root{
+    --main-color: rgba(255, 217, 147, 1.0);
+    --main-color-light: rgba(255, 217, 147, 0.5);
+    --accent-color: rgb(147, 154, 255, 1.0);
+    --accent-color-light: rgba(147, 154, 255, 0.5);
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-image: linear-gradient(to bottom right, var(--main-color), var(--accent-color));
+    background-repeat: no-repeat;
+    min-height:100vh;
+}
+.btn{
+    border: none;
+    padding: 0;
+    outline: none;
+    font-size: 1.58rem;
+}
+.btn--edit{
+    color: green;
+}
+.btn--edit:hover{
+    transform: scale(1.3);
+}
+.btn--delete{
+    color: red;
+}
+.btn--delete:hover{
+    transform: scale(1.3);
+}
+.bilgi{
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 4px;
+    color: #000;
+}
+.bilgi--success{
+    border: 1px solid green;
+    color: green;
+}
+.bilgi--error{
+    border: 1px solid red;
+    color: red;
+}
+.far{
+    pointer-events: none;
+}

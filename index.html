@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/skeleton/normalize.css">
+    <link rel="stylesheet" href="assets/css/skeleton/skeleton.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Kisi Rehberi</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Kisi Rehberi</h1>
+
+        <form id="form-rehber">
+            <div>
+                <label for="ad">Adi</label>
+                <input type="text" id="ad" class="u-full-width" />
+            </div>
+            <div>
+                <label for="soyad">Soyadi</label>
+                <input type="text" id="soyad" class="u-full-width" />
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+                <input type="text" id="mail" class="u-full-width" />
+            </div>
+            <div>
+                <input type="submit" value="Kaydet" class="button-primary u-full-width kaydetGuncelle" />
+            </div>
+        </form>
+
+        <hr>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>E-Mail</th>
+                    <th>Islemler</th>
+                </tr>
+            </thead>
+            <tbody class="kisi-listesi"></tbody>
+        </table>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
